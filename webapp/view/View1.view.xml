@@ -3,14 +3,15 @@
     <sap.ui.layout.form:content>
         <sap.ui.core:Title id="title5"/>
         <Label text="Name" id="label0"/>
-        <Input width="50%" id="input0" fieldWidth="30%"/>
+        <Input width="80%" id="input0"/>
         <Label text="Street/No." id="label1"/>
-        <Input width="60%" id="input2"/>
-        <Input xmlns="sap.m" id="input3" width="40%"/>
+        <Input width="100%" id="input2"/>
+        <Input xmlns="sap.m" id="input3" width="60%"/>
         <Label xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" text="Zip Code/City" id="label1_copy"/>
-        <Input xmlns:mvc="sap.ui.core.mvc" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" xmlns="sap.m" id="input3_copy2" width="50%"/><Input xmlns:mvc="sap.ui.core.mvc" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" xmlns="sap.m" id="input3_copy" fieldWidth="30%" width="50%"/>
+        <Input xmlns:mvc="sap.ui.core.mvc" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" xmlns="sap.m" id="input4" width="100%"/>
+        <Input xmlns:mvc="sap.ui.core.mvc" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" xmlns="sap.m" id="input5" width="60%"/>
         <Label xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" text="Country" id="label1_copy2"/>
-        <ActionSelect id="select0" maxWidth="70%">
+        <ActionSelect id="select0">
             <items>
                 <sap.ui.core:ListItem text="England" id="item0"/>
                 <sap.ui.core:ListItem text="Germany" id="item1"/>
@@ -18,7 +19,21 @@
                 <sap.ui.core:ListItem text="Philippines" id="item3"/>
             </items>
         </ActionSelect>
-        <sap.ui.commons:Button xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" xmlns:sap.ui.commons="sap.ui.commons" text="Save" width="100px" id="button3" style="Accept"/>
-        <sap.ui.commons:Button xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" xmlns:sap.ui.commons="sap.ui.commons" text="Clear" width="100px" id="button2" style="Reject"/></sap.ui.layout.form:content>
+        <HBox width="100%" id="hbox0">
+            <items><sap.ui.commons:Button xmlns:mvc="sap.ui.core.mvc" 
+                                            xmlns="sap.m" 
+                                            xmlns:sap.ui.layout.form="sap.ui.layout.form" 
+                                            xmlns:sap.ui.core="sap.ui.core" 
+                                            xmlns:sap.ui.commons="sap.ui.commons" 
+                                            text="Save" width="100px" id="button3" style="Accept" />
+                    <sap.ui.commons:Button xmlns:mvc="sap.ui.core.mvc" 
+                                            xmlns="sap.m" 
+                                            xmlns:sap.ui.layout.form="sap.ui.layout.form" 
+                                            xmlns:sap.ui.core="sap.ui.core" 
+                                            xmlns:sap.ui.commons="sap.ui.commons" 
+                                            text="Clear" width="100px" id="button2" style="Reject" press="onClearPress"/>
+            </items>
+        </HBox>
+                                </sap.ui.layout.form:content>
 </sap.ui.layout.form:SimpleForm>
 </mvc:View>
