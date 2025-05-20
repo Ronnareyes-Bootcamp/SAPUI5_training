@@ -5,7 +5,7 @@
         <Label text="Name" id="label0"/>
         <Input width="50%" id="input0" fieldWidth="30%"/>
         <Label text="Street/No." id="label1"/>
-        <Input width="100%" id="input2"/>
+        <Input width="60%" id="input2"/>
         <Input xmlns="sap.m" id="input3" width="40%"/>
         <Label xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" text="Zip Code/City" id="label1_copy"/>
         <Input xmlns:mvc="sap.ui.core.mvc" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" xmlns="sap.m" id="input3_copy2" width="50%"/><Input xmlns:mvc="sap.ui.core.mvc" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" xmlns="sap.m" id="input3_copy" fieldWidth="30%" width="50%"/>
