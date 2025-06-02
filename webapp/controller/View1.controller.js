@@ -14,6 +14,10 @@ sap.ui.define([
                     input.setValue("");
                 }
             }
+            var oSelect = this.byId("select0");
+            if (oSelect) {
+            oSelect.setSelectedKey("");
         }
+    }
     });
 });

@@ -13,10 +13,11 @@
         <Label xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" text="Country" id="label1_copy2"/>
         <ActionSelect id="select0">
             <items>
-                <sap.ui.core:ListItem text="England" id="item0"/>
-                <sap.ui.core:ListItem text="Germany" id="item1"/>
-                <sap.ui.core:ListItem text="USA" id="item2"/>
-                <sap.ui.core:ListItem text="Philippines" id="item3"/>
+                <sap.ui.core:ListItem text="" id="item0"/>
+                <sap.ui.core:ListItem text="England" id="item1"/>
+                <sap.ui.core:ListItem text="Germany" id="item2"/>
+                <sap.ui.core:ListItem text="USA" id="item3"/>
+                <sap.ui.core:ListItem text="Philippines" id="item4"/>
             </items>
         </ActionSelect>
         <HBox width="100%" id="hbox0">
